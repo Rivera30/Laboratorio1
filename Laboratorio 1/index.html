@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <title>Laboratorio1</title>
+  </head>
+    <body>
+        <header>      
+          <img src="Imagenes/Logo.png" alt="Logo" id="Logo">
+          <div>
+            <a href="#"><img src="Imagenes/Home.png" alt=""></a>
+            <a href="#"><img src="Imagenes/Notifications.png" alt=""></a>
+            <a href="#"><img src="Imagenes/Calendar-today.png" alt=""></a>
+            <a href="#"><img src="Imagenes/Show-chart.png" alt=""></a>
+            <a href="#"><img src="Imagenes/Person.png" alt=""></a>
+          </div>
+          <img src="Imagenes/Group-1.png" alt="settings" id="settings">
+        </header>
+        <main>
+          <section>
+            <div>
+              <img src="Imagenes/Keyboard-arrow.png" alt="">
+              <p>settings</p>
+            </div>
+            <div>
+              <img src="Imagenes/Edit.png" alt="">
+              <img src="Imagenes/Notifications2.png" alt="">
+              <img src="Imagenes/Lock.png" alt="">
+              <img src="Imagenes/Settings.png" alt="">
+              <img src="Imagenes/Help-outline.png" alt="">
+            </div>
+            <div>
+              <ul>
+                <li><a href="#">Edit profile</a></li>
+                <li><a href="#">Notification</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Appearance</a></li>
+                <li><a href="#">Help</a></li>
+              </ul>
+            </div>
+          </section>
+          <section>
+            <di>
+              <img src="Imagenes/profile1.png" alt="">
+            </di>
+            <div>
+              <h1>Edit profile</h1>
+              <img src="Imagenes/unsplash_C8Ta0gwPbQg.png" alt="">
+            </div>
+            <div>
+              <form>
+                <div>
+                  <label for="text">First Name</label> <br>
+                    <input type="text" name="name" id="name" placeholder="Menhrab" required> <br>
+                  <label for="text">Last name</label> <br>
+                    <input type="text" name="last-name" id="last-name" placeholder="Bozorgi" required> <br>
+                  <label for="text">Email</label> <br>
+                    <input type="email" name="email" id="email" placeholder="Mehrabbozorgi.business@gmail.com" required> <br>
+                  <label for="text">Address</label> <br>
+                    <input type="text" name="address" id="address" placeholder="33062 Zboncak isle" required> <br>
+                  <label for="text">Contact Number</label> <br>
+                    <input type="text" name="contact" id="contact" placeholder="58077.79" required> <br>
+                </div>
+                <div>
+                  <label for="text">City</label> <br>
+                    <input list="editors" name="city" id="city" placeholder="Menhrab">
+                    <datalist id="editors">
+                    <option value="Amsterdam">
+                    <option value="Barcelona">
+                    <option value="Beijing">
+                    <option value="Beirut">
+                </div>
+                <div>
+                  <label for="text">State</label> <br>
+                    <input list="edit" name="state" id="state" placeholder="Bozorgi">
+                    <datalist id="edit">
+                    <option value="Friesland">
+                    <option value="Badalona">
+                    <option value="Pekin">
+                    <option value="Libano">
+                </div>
+                <div>
+                  <label for="text">Password</label> <br>
+                      <input type="text" name="password" id="password" placeholder="sbdfbnd65sfdvb s" required>
+                </div>
+                <br/>
+                <div>
+                  <input type="reset" value="Cancel" />
+                  <input type="submit" value="Save" />
+                </div>
+              </form>
+            </div>
+          </section>
+        </main>    
+    </body>
+</html>
