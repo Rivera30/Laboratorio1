@@ -1,0 +1,175 @@
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #ffc297;
+  width: 100px;
+}
+
+main {
+  display: flex;
+}
+
+.box-main {
+  border: 1px solid red;
+  display: flex;
+}
+
+/* Header*/
+
+.images-header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  padding: 20px;
+}
+
+.config {
+  margin: 10px;
+}
+/*End Header*/
+
+/*Settings */
+.settings-section {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding: 10px;
+}
+
+.settings {
+  display: flex;
+  font-size: 30px;
+  gap: 30px;
+}
+
+.images {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  padding: 20px;
+}
+
+.images ul {
+  list-style-type: none;
+}
+
+.settings-images p {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.settings-images ul {
+  list-style-type: none;
+}
+
+.settings-images a {
+  color: #858585;
+}
+.settings-images a:hover {
+  color: #000000;
+}
+
+.list-interactive {
+  display: flex;
+  align-items: center;
+}
+/*End settings*/
+
+/*Edit profile*/
+
+.sect-block-three {
+  border: 1px solid blue;
+  width: 800px;
+}
+
+/*Edit profile + image*/
+.semi-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.semi-header h1 {
+  font-size: 30px;
+  padding: 20px;
+}
+
+.semi-header img {
+  width: 90px;
+  height: 90px;
+}
+
+/* form contact*/
+
+.form-contact {
+  border: solid red 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-contact input[type="text"] {
+  border-radius: 20px ;
+
+}
+
+
+
+
+
+.city {
+  border: rgb(255, 0, 0) solid 1px;
+  display: flex;
+  font-size: 23px;
+  padding: 10px 10px 10px;
+}
+
+
+.city input
+
+
+
+
+
+
+/* password*/
+.password {
+  font-size: 23px;
+  padding: 10px 10px 10px;
+}
+
+.password input[type="text"]{
+  border-radius: 5px;
+  padding: 10px 200px 10px;
+}
+
+/*buttons*/
+.buttons input[type="reset"],
+.buttons input[type=submit] {
+  background-color: transparent;
+  border-radius: 5px;
+  border: solid 2px #FF7008;
+  color: #FF7008;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.buttons input[type="reset"]:hover,
+.buttons input[type=submit]:hover {
+  background-color: #FF7008;
+  border-radius: 5px;
+  border: solid 2px #fd6100;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.perfil-img {
+  border: 1px solid aqua;
+}
