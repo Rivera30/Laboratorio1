@@ -13,7 +13,7 @@
   <div class="box-main">
     <header>
       <div class="images-header">
-        <a href="#"><img src="../Imagenes/logo@0 1.svg" alt="" /></a>
+        <a href="#"><img src="./Imagenes/Logo.png" alt="" /></a>
         <a href="#"><img src="Imagenes/Home.png" alt="" /></a>
         <a href="#"><img src="Imagenes/Notifications.png" alt="" /></a>
         <a href="#"><img src="Imagenes/Calendar-today.png" alt="" /></a>
@@ -21,14 +21,14 @@
         <a href="#"><img src="Imagenes/Person.png" alt="" /></a>
       </div>
       <div class="config">
-        <img src="Imagenes/Group-1.png" alt="" />
+        <img src="./Imagenes/Group-1.png" alt="" />
       </div>
     </header>
     <main>
       <div class="settings-section">
         <section>
           <div class="settings">
-            <img src="./Imagenes/Vector.svg" alt="" />
+            <img src="./Imagenes/Keyboard-arrow.png" alt="" />
             <p>settings</p>
           </div>
           <div class="list-interactive">
@@ -79,14 +79,18 @@
           </div>
           <div>
             <form>
-              <div class="form-contact">
-                <div>
-                  <label for="text">First Name</label>
-                  <input type="text" name="name" id="name" placeholder="Menhrab" required />
-                  <label for="text">Last name</label>
-                  <input type="text" name="last-name" id="last-name" placeholder="Bozorgi" required />
+              <div>
+                <div class="form-contact">
+                  <div class="first-name">
+                    <label for="text">First Name</label>
+                    <input type="text" name="name" id="name" placeholder="Menhrab" required />
+                  </div>
+                  <div class="last-name">
+                    <label for="text">Last name</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Bozorgi" required />
+                  </div>
                 </div>
-                <div>
+                <div class="info-contact">
                   <label for="text">Email</label>
                   <input type="email" name="email" id="email" placeholder="Mehrabbozorgi.business@gmail.com" required />
                   <label for="text">Address</label>
@@ -95,24 +99,28 @@
                   <input type="text" name="contact" id="contact" placeholder="58077.79" required />
                 </div>
               </div>
-              <div class="city">
-                <label for="text">City</label>
-                <input list="editors" name="city" id="city" placeholder="Menhrab" />
-                <datalist id="editors">
-                  <option value="Amsterdam"></option>
-                  <option value="Barcelona"></option>
-                  <option value="Beijing"></option>
-                  <option value="Beirut"></option>
-                </datalist>
+              <div class="flex-city-state">
+                <div class="city">
+                  <label for="text">City</label>
+                  <input list="editors" name="city" id="city" placeholder="Menhrab" />
+                  <datalist id="editors">
+                    <option value="Amsterdam"></option>
+                    <option value="Barcelona"></option>
+                    <option value="Beijing"></option>
+                    <option value="Beirut"></option>
+                  </datalist>
+                </div>
                 <!-- state -->
-                <label for="text">State</label>
-                <input list="edit" name="state" id="state" placeholder="Bozorgi" />
-                <datalist id="edit">
-                  <option value="Friesland"></option>
-                  <option value="Badalona"></option>
-                  <option value="Pekin"></option>
-                  <option value="Libano"></option>
-                </datalist>
+                <div class="state">
+                  <label for="text">State</label>
+                  <input list="edit" name="state" id="state" placeholder="Bozorgi" />
+                  <datalist id="edit">
+                    <option value="Friesland"></option>
+                    <option value="Badalona"></option>
+                    <option value="Pekin"></option>
+                    <option value="Libano"></option>
+                  </datalist>
+                </div>
               </div>
               <div class="password">
                 <label for="text">Password</label>
